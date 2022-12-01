@@ -1,2 +1,1 @@
-# test-terragrunt
-Testing Terragrunt
+# learn-terragrunt

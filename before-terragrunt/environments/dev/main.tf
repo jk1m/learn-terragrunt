@@ -8,4 +8,8 @@ module "vpc" {
 
   azs            = var.az_list
   public_subnets = var.public_subnet_list
+
+  tags = {
+    Environment = var.environment
+  }
 }
